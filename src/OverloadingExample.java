@@ -8,13 +8,12 @@ static int add(int a, int b,int c)
 {
     return a+b+c;
 }
-public class TestOverloading
-{
+
     public static void main(String[] args)
     {
         System.out.println(OverloadingExample.add(11,11));
         System.out.println(OverloadingExample.add(11,11,11));
 
     }
-}
+
 }
