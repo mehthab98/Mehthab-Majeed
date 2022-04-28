@@ -4,8 +4,7 @@ public class StaticExample {
 
     public static void Main(String[] args)
     {
-        public void stat_var_example()
-        {
+
             StaticExample stat_eg1 = new StaticExample();
             stat_eg1.a=5;
             stat_eg1.b=7;
@@ -13,6 +12,6 @@ public class StaticExample {
             stat_eg2.a=4;
             stat_eg2.b=9;
             System.out.println(stat_eg1.a);
-        }
+
     }
 }
